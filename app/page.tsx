@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { Hero } from "componenets";
+
+import { Hero } from "@/components"
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <h1 className="text-center">
         kza_cuts
       </h1>
+      <Hero/>
     </main>
   );
 }
