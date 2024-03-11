@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    background-color: black;
+    
+}
 
 button {
     /* appearance: button; */
