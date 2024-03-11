@@ -4,14 +4,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 * {
     background-color: black;
-    
+    font-family: 'Poppins', sans-serif;
 }
 
 button {
-    /* appearance: button; */
     background-color: #000;
     background-image: none;
     border: 1px solid #000;
