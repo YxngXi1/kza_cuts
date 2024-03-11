@@ -4,19 +4,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins&display=swap');
 
 * {
     background-color: black;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
+    color: #DFD390;
 }
 
 button {
-    background-color: #000;
+    background-color: #DFD390;
     background-image: none;
-    border: 1px solid #000;
+    border: 1px solid #DFD390;
     border-radius: 4px;
-    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-shadow: #fff 4px 4px 0 0,#DFD390 4px 4px 0 1px;
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;
@@ -49,12 +51,12 @@ button:hover {
 }
 
 button:active {
-  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  box-shadow: rgba(223, 211, 144, .125) 0 3px 5px inset;
   outline: 0;
 }
 
 button:not([disabled]):active {
-  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  box-shadow: #fff 2px 2px 0 0, #DFD390 2px 2px 0 1px;
   transform: translate(2px, 2px);
 }
 

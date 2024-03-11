@@ -1,12 +1,24 @@
 import Image from "next/image";
+import Link from 'next/link';
 
 import { Hero } from "@/components"
+import { Poppins } from "next/font/google"
 
-export default function Home() {
+export default function Payment() {
   return (
     <main>
-      <Hero/>
-      <button>hihih</button>
+      <div className="flex ">
+        <div className="w-1/2">
+          <img src='/kza_cuts photo.jpeg' alt="image of a haircut" className="block ml-auto mr-auto" width="500px"/>
+        </div>
+        <div className="w-1/2">
+          <h1 className="font-bold text-8xl text-right mr-40">kza_cuts</h1>
+          <p className="mr-40 text-right mt-28 text-6xl">text goes here</p>
+          <Link href="/app/payment.tsx">
+            <button className="mt-14 block ml-auto mr-40">Get a Cut!</button>
+          </Link>
+        </div>
+      </div>
     </main>
   );
 }
